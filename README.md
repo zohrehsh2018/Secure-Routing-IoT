@@ -52,11 +52,6 @@ This code is provided for **research and academic use only**.
 If you use this work in your research, please cite the corresponding paper:
 
 
----
-
-## Contact
-
-For questions, discussions, or collaboration inquiries, please contact the authors via the information provided in the associated publication.
 
 
 ## Repository Structure
