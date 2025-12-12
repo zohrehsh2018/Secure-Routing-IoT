@@ -37,20 +37,42 @@ A weighted fusion mechanism, optimized through hyperparameter tuning, combines t
 - **Attack Scenarios:** Five distinct routing and forwarding attacks  
 - **Network Conditions:** Static, low-mobility, and highly dynamic environments  
 
----
-
-## Key Results
-
-The proposed approach demonstrates strong performance across diverse scenarios:
-
-- Up to **96% detection accuracy** for covert forwarding and routing attacks  
-- **38% reduction in attack detection latency**  
-- **20–40% reduction in control-message overhead** compared to baseline methods  
-- Runtime memory footprint maintained under **10 KB**, suitable for resource-constrained IoT devices  
-
-The framework remains effective under both static and highly dynamic network conditions.
 
 ---
+
+---
+
+## Purpose and Usage
+
+This repository is intended to:
+
+- Support **reproducibility** of the results reported in the associated research paper  
+- Provide a **reference implementation** for researchers studying secure routing and trust management in IoT networks  
+- Enable further experimentation and extension of mobility-aware security mechanisms  
+
+This code is provided for **research and academic use only**.
+
+---
+
+## Authors
+
+- **Shoaei**  
+- **Esmaeili**  
+- **Javidan**
+
+---
+
+## Citation
+
+If you use this work in your research, please cite the corresponding paper:
+
+
+---
+
+## Contact
+
+For questions, discussions, or collaboration inquiries, please contact the authors via the information provided in the associated publication.
+
 
 ## Repository Structure
 
