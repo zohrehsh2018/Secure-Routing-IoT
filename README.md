@@ -42,7 +42,7 @@ This code is provided for **research and academic use only**.
 
 ## Authors
 
-- Zohre Shoaei, Rasool Esmaeilyfard*, Reza Javidan  
+- Zohre Shoaei, Dr.Rasool Esmaeilyfard*, Dr.Reza Javidan  
 - Department of Computer and Information Technology Engineering, Shiraz University of Technology
 
 ---
