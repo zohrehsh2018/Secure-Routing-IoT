@@ -8,7 +8,7 @@ The project is developed as part of an **academic research study and  scientific
 
 ## Overview
 
-IoT networks deployed in mobile and urban environments experience rapidly changing topologies, intermittent connectivity, and heterogeneous node behaviors. Under such conditions, even authenticated nodes can launch stealthy routing attacks that bypass conventional cryptographic protections, threatening network reliability and data integrity.
+IoT networks deployed in mobile  environments experience rapidly changing topologies, intermittent connectivity, and heterogeneous node behaviors. Under such conditions, even authenticated nodes can launch stealthy routing attacks that bypass conventional cryptographic protections, threatening network reliability and data integrity.
 
 To address these challenges, this work proposes a **temporal–spatial trust framework** that models the IoT network as a continuously evolving dynamic graph. Node behaviors are represented as temporal sequences enriched with neighborhood-level contextual features derived from mobility, traffic, and structural characteristics.
 
