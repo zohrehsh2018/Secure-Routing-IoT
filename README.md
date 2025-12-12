@@ -3,7 +3,7 @@
 
 This repository provides the full implementation and experimental resources for a **mobility-aware, trust-based routing framework** designed to enhance the security and stability of RPL-based Internet of Things (IoT) networks operating under highly dynamic conditions.
 
-The project is developed as part of an **academic research study and accompanying scientific paper**, with the aim of improving trust management and secure routing in next-generation mobile IoT environments.
+The project is developed as part of an **academic research study and  scientific paper**, with the aim of improving trust management and secure routing in  mobile IoT environments.
 
 ---
 
@@ -13,7 +13,7 @@ IoT networks deployed in mobile and urban environments experience rapidly changi
 
 To address these challenges, this work proposes a **temporal–spatial trust framework** that models the IoT network as a continuously evolving dynamic graph. Node behaviors are represented as temporal sequences enriched with neighborhood-level contextual features derived from mobility, traffic, and structural characteristics.
 
-These sequences are processed using a **multi-layer GRU-based Sequence-to-Sequence (Seq2Seq) architecture with multi-head attention**, enabling the model to capture both short-term temporal dynamics and long-range spatial dependencies.
+These sequences are processed using a ** GRU-based Sequence-to-Sequence (Seq2Seq) architecture with multi-head attention**, enabling the model to capture both short-term temporal dynamics and long-range spatial dependencies.
 
 ---
 
@@ -34,8 +34,8 @@ A weighted fusion mechanism, optimized through hyperparameter tuning, combines t
 - **Simulation Platform:** Contiki-NG  
 - **Routing Protocol:** RPL  
 - **Mobility Data:** Microsoft GeoLife real-world trajectory dataset  
-- **Attack Scenarios:** Five distinct routing and forwarding attacks  
-- **Network Conditions:** Static, low-mobility, and highly dynamic environments  
+- **Attack Scenarios:** Rank, Blackhole, Sinkhole, Selective Forwarding, Sybil attacks  
+- **Network Conditions:** Static and Mobility environments  
 
 
 ---
@@ -44,7 +44,7 @@ A weighted fusion mechanism, optimized through hyperparameter tuning, combines t
 
 ## Purpose and Usage
 
-This repository is intended to:
+This repository is created to:
 
 - Support **reproducibility** of the results reported in the associated research paper  
 - Provide a **reference implementation** for researchers studying secure routing and trust management in IoT networks  
@@ -56,9 +56,8 @@ This code is provided for **research and academic use only**.
 
 ## Authors
 
-- **Shoaei**  
-- **Esmaeili**  
-- **Javidan**
+- Zohre Shoaei, Rasool Esmaeilyfard*, Reza Javidan  
+- Department of Computer and Information Technology Engineering, Shiraz University of Technology
 
 ---
 
