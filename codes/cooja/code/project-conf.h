@@ -1,0 +1,6 @@
+#ifndef PROJECT_CONF_H
+#define PROJECT_CONF_H
+
+#define ROUTING_CONF_RPL_LITE 1
+
+#endif /* PROJECT_CONF_H */
