@@ -5,7 +5,7 @@ This repository provides the full implementation and experimental resources for 
 
 The project is developed as part of an **academic research study and  scientific paper**, with the aim of improving trust management and secure routing in  mobile IoT environments.
 
---
+
 
 ## Overview
 
@@ -17,17 +17,6 @@ These sequences are processed using a ** GRU-based Sequence-to-Sequence (Seq2Seq
 
 ---
 
-## Trust Framework Design
-
-The proposed framework integrates multiple trust evidence sources to compute a robust and adaptive trust score for each node:
-
-- **Model-inferred behavioral anomalies** obtained from sequence prediction errors  
-- **Deterministic protocol-level checks** derived from routing and control message behavior  
-- **Peer-reported reputation** aggregated from neighboring nodes  
-
-A weighted fusion mechanism, optimized through hyperparameter tuning, combines these trust signals. The resulting trust scores are embedded into **RPL’s rank computation** and regulated using a **hysteresis-based parent selection policy**, ensuring fast isolation of malicious nodes while preserving routing stability.
-
----
 
 ## Experimental Setup
 
@@ -36,9 +25,6 @@ A weighted fusion mechanism, optimized through hyperparameter tuning, combines t
 - **Mobility Data:** Microsoft GeoLife real-world trajectory dataset  
 - **Attack Scenarios:** Rank, Blackhole, Sinkhole, Selective Forwarding, Sybil attacks  
 - **Network Conditions:** Static and Mobility environments  
-
-
----
 
 ---
 
