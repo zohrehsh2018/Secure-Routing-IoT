@@ -5,7 +5,7 @@ This repository provides the full implementation and experimental resources for 
 
 The project is developed as part of an **academic research study and  scientific paper**, with the aim of improving trust management and secure routing in  mobile IoT environments.
 
----
+--
 
 ## Overview
 
