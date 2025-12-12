@@ -1,5 +1,4 @@
 # Secure-Routing-IoT
-# Mobility-Aware Trust-Based Secure Routing for RPL-Based IoT Networks
 
 This repository provides the implementation and experimental resources for a **mobility-aware, trust-based routing framework** designed to enhance the security and stability of RPL-based Internet of Things (IoT) networks operating under highly dynamic conditions.
 
