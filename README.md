@@ -44,6 +44,8 @@ This code is provided for **research and academic use only**.
 - Zohre Shoaei, Dr.Rasool Esmaeilyfard*, Dr.Reza Javidan  
 - Department of Computer and Information Technology Engineering, Shiraz University of Technology
 
+- Contact US : z.shoaei.register@gmail.com
+
 ---
 
 ## Citation
