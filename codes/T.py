@@ -12,7 +12,6 @@ import torch.nn.functional as F
 from scipy.stats import wasserstein_distance
 from dtaidistance import dtw
 
-
 def set_seed(seed: int = 42) -> None:
     import random
     random.seed(seed)
