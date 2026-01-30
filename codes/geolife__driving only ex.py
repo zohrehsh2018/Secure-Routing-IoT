@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import datetime
 
+
 DATASET_ROOT = '/content/sample_data/Untitled Folder'
 OUTPUT_FILE = 'geolife_cars.csv'
 
