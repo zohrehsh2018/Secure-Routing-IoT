@@ -285,29 +285,33 @@ def T_model_from_Sdev(Sdev: float, gamma: float = 3.0) -> float:
 def T_fused(Tm: float, Td: float, Tr: float, w_model: float, w_direct: float, w_rep: float) -> float:
     return float(np.clip(w_model * Tm + w_direct * Td + w_rep * Tr, 0.0, 1.0))
 
-
-
-
 @dataclass
 class HyperParams:
-    W: int = 12
-    Wp: int = 3
-    hidden: int = 64
-    layers: int = 1
-    heads: int = 4
-    epochs: int = 5
-    lr: float = 1e-3
-    batch_size: int = 256
-    beta: float = 0.5
+    # sequence lengths
+    W: int
+    Wp: int
 
-    theta_trust: float = 0.35
-    theta_pfr: float = 0.9
+    # model
+    hidden: int
+    layers: int
+    heads: int
+    epochs: int
+    lr: float
+    batch_size: int
 
-    w_model: float = 0.4
-    w_direct: float = 0.4
-    w_rep: float = 0.2
-    w_rank: float = 0.5
-    w_pfr: float = 0.5
+    # deviation fusion
+    beta: float
+
+    # trust thresholds
+    theta_trust: float
+    theta_pfr: float
+
+    # trust weights
+    w_model: float
+    w_direct: float
+    w_rep: float
+    w_rank: float
+    w_pfr: float
 
 
 class TrustAwarePipeline:
