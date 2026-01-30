@@ -474,11 +474,4 @@ class TrustAwarePipeline:
         def safe_mean(x): return float(np.mean(x)) if x else float("nan")
         def safe_rate(x): return float(np.mean(x)) if x else float("nan")
 
-        return {
-            "device": str(self.device),
-            "mean_trust_normal": safe_mean(normal_T),
-            "mean_trust_attack": safe_mean(attack_T),
-            "suspicious_rate_normal": safe_rate(normal_susp),
-            "suspicious_rate_attack": safe_rate(attack_susp),
-            "separation_mean": safe_mean(normal_T) - safe_mean(attack_T) if normal_T and attack_T else float("nan"),
-        }
+        return 
